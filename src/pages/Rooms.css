@@ -1,0 +1,133 @@
+
+.rooms-page {
+    padding: 30px 45px;
+    background: #f1f5f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.rooms-header, .header-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rooms-header h1 {
+    color: #1e293b;
+}
+
+.rooms-header p {
+    color: #64748b;
+}
+
+.header-actions {
+    gap: 20px;
+}
+
+.add-room-icon {
+    background: #2563eb;
+    color: white;
+    font-size: 26px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.list-section, .form-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.search-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.search-section input {
+    width: 300px;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.room-box {
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.room-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-top span {
+    color: green;
+    background: #dcfce7;
+    padding: 6px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.room-box h2 {
+    color: #2563eb;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.actions button:first-child {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+.actions button:last-child {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.form-section form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.save-button {
+    background: #2563eb;
+    color: white;
+}
+
+.cancel-button {
+    background: #64748b;
+    color: white;
+}
+
+.error {
+    color: red;
+}

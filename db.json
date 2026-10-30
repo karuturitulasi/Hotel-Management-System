@@ -1,0 +1,44 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "roomNumber": "101",
+      "roomType": "Single",
+      "price": 1000,
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "roomNumber": "102",
+      "roomType": "Double",
+      "price": 2000,
+      "status": "Available"
+    },
+    {
+      "roomNumber": "103",
+      "roomType": "Suite",
+      "price": 2500,
+      "status": "Available",
+      "id": "ft4IJxx"
+    }
+  ],
+  "customers": [
+    {
+      "name": "Sri",
+      "email": "sri@gmail.com",
+      "phone": "7463754638",
+      "id": 1
+    }
+  ],
+  "bookings": [
+    {
+      "roomId": "1",
+      "customerId": "1",
+      "checkIn": "2026-10-30",
+      "checkOut": "2026-10-31",
+      "totalAmount": 1000,
+      "status": "Confirmed",
+      "id": 1
+    }
+  ]
+}
